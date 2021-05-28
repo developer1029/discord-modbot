@@ -1,5 +1,10 @@
 const Discord = require("discord.js")
+
+const keep_alive = require('./keep_alive')
+
 const client = new Discord.Client();
+
+const config = require("./config.json");
 
 client.on("ready", () => {
 
